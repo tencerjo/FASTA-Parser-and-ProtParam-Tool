@@ -1,6 +1,6 @@
 Built on Anaconda 2.6.0, Python 3.11.7
 
-This FASTA Parser tools script looks for text starting with ">" and grabs the amino acid sequence below it until two line breaks are detected (rather than just looking for the next ">".
+This FASTA Parser tools script looks for text starting with ">" and grabs the amino acid sequence below it until two line breaks are detected and then looks for the next > with the sequence name.
 
 The v0_5 script will take a text file the user edits in the code.
 
